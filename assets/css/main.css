@@ -289,7 +289,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 80% !important;
+				width: 100% !important;
 				max-width: 100% !important;
 			}
 
@@ -298,7 +298,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.container {
-				width: 100% !important;
+				width: 120% !important;
 			}
 
 		}
@@ -1954,6 +1954,7 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
+		font-size: 30px;
 	}
 
 		header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -3141,4 +3142,12 @@ input, select, textarea {
 					padding: 0;
 				}
 
+	}
+
+	.box1 {
+		transition: .2s ease-in-out; 
+	}
+
+	.box1:hover {
+		transform: scale(1.1); 
 	}
